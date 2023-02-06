@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <img id="box-svg" src="images/illustration-box-desktop.svg" alt="">
+  <section class="faq-card">
+    
+    <img id="woman-svg" src="images/illustration-woman-online-desktop.svg" alt="woman-illustration">
+
+    <div class="faq-questions">
+      <h1>FAQ</h1>
+   
+      <div class="faq-question">
+        <label for="t1" class="accordionitem">
+          <span>How many team members can i invite?</span>
+          <img src="images/icon-arrow-down.svg" alt="arrow-down">
+        </label>
+        <input type="checkbox" id="t1"/>
+        <p class="hiddentext">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+      </div>
+   
+      <div class="faq-question">
+        <label for="t2" class="accordionitem">
+          <span>What is the maximum file upload size?</span>
+          <img src="images/icon-arrow-down.svg" alt="arrow-down">
+        </label>
+        <input type="checkbox" id="t2"/>
+        <p class="hiddentext">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </div>
+   
+      <div class="faq-question">
+        <label for="t3" class="accordionitem">
+          <span>How do I reset my password?</span>
+          <img src="images/icon-arrow-down.svg" alt="arrow-down">
+        </label>
+        <input type="checkbox" id="t3"/>
+        <p class="hiddentext">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+      </div>
+   
+      <div class="faq-question">
+        <label for="t4" class="accordionitem">
+          <span>Can I cancel my subscription?</span>
+          <img src="images/icon-arrow-down.svg" alt="arrow-down">
+        </label>
+        <input type="checkbox" id="t4"/>
+        <p class="hiddentext">Yes! Send us a message and we’ll process your request no questions asked.</p>
+      </div>
+   
+      <div class="faq-question">
+        <label for="t5" class="accordionitem">
+          <span>Do you provide additional support?</span>
+          <img src="images/icon-arrow-down.svg" alt="arrow-down">
+        </label>
+        <input type="checkbox" id="t5"/>
+        <p class="hiddentext">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+      </div>
+
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
